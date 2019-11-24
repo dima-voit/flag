@@ -1,0 +1,162 @@
+body {
+  background-color: #9dc2ee;
+}
+
+.country_argentina {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.country_argentina .img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  border-radius: 50%;
+  background-image: url("images/argentina.svg");
+}
+
+.country_argentina p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #398df0;
+}
+
+.country_brazil {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.country_brazil .img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  border-radius: 50%;
+  background-image: url("images/brazil.svg");
+}
+
+.country_brazil p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6fa44a;
+}
+
+.country_canada {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.country_canada .img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  border-radius: 50%;
+  background-image: url("images/canada.svg");
+}
+
+.country_canada p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d60a2e;
+}
+
+.country_netherlands {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.country_netherlands .img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  border-radius: 50%;
+  background-image: url("images/netherlands.svg");
+}
+
+.country_netherlands p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0b55b1;
+}
+
+.country_spain {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.country_spain .img {
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+  border-radius: 50%;
+  background-image: url("images/spain.svg");
+}
+
+.country_spain p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fed953;
+}
+
+.stars {
+  width: 20px;
+  height: 20px;
+  margin: 30px auto;
+  background-image: url("images/star.svg");
+  background-size: contain;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  max-height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  margin: 150px auto;
+}
+
+.container > div {
+  border-bottom: 4px solid #4154b3;
+}
+
+.container > div:nth-child(2) {
+  border-bottom-color: #f24840;
+}
+
+.container > div:nth-child(3) {
+  border-bottom-color: #f24840;
+}
+
+.container > div:nth-child(4) {
+  border-bottom-color: #f24840;
+}
+
+.container > div:nth-child(1) .stars {
+  width: 20px;
+}
+
+.container > div:nth-child(2) .stars {
+  width: 40px;
+}
+
+.container > div:nth-child(3) .stars {
+  width: 60px;
+}
+
+.container > div:nth-child(4) .stars {
+  width: 80px;
+}
+
+.container > div:nth-child(5) .stars {
+  width: 100px;
+}
+/*# sourceMappingURL=styles.css.map */

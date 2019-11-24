@@ -1,0 +1,58 @@
+$countries: argentina, brazil, canada, netherlands,spain
+
+body
+  background-color: #9dc2ee
+
+@each $element in $countries
+  .country_#{$element}
+    background-color: #f5f5f5
+    border-radius: 15px
+    .img
+      width: 150px
+      height: 150px
+      margin: 35px
+      border-radius: 50%
+      background-image: url('images/#{$element}.svg')
+    p
+      text-align: center
+      text-transform: uppercase
+      letter-spacing: 1px
+      @if $element == argentina
+        color: #398df0
+      @else if $element == brazil
+        color: #6fa44a
+      @else if $element == canada
+        color: #d60a2e
+      @else if $element == netherlands
+        color: #0b55b1
+      @else if $element == spain
+        color: #fed953
+
+.stars
+  width: 20px
+  height: 20px
+  margin: 30px auto
+  background-image: url('images/star.svg')
+  background-size: contain
+
+.container
+  width: 100%
+  max-width: 1400px
+  max-height: 370px
+  display: flex
+  background-color: #ffffff
+  justify-content: space-around
+  padding: 20px
+  margin: 150px auto
+  >div
+    border-bottom: 4px solid #4154b3
+    @for $i from 2 through 4
+      &:nth-child(#{$i})
+        border-bottom-color: #f24840
+    @for $i from 1 through 5
+      &:nth-child(#{$i})
+        .stars
+          width: 20px * $i
+        
+      
+      
